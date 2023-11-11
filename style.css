@@ -36,8 +36,8 @@ body {
 
 /* Green/Pink Mode - using the building's color palette with enhanced pink */
 .green-pink-mode {
-    background-color: #88b04b; /* A soft green */
-    color: #eeacb1; /* A warmer, more reddish soft pink */
+    background-color: #eeacb1; /* A vivid, reddish-pink shade */
+    color: #5b7553; /* Muted green for text */
 }
 
 /* Rest of your styles */
