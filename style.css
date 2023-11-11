@@ -28,16 +28,16 @@ body {
     color: #333;
 }
 
-/* Dark Mode */
+/* Dark Mode - adjusted for better visibility */
 .dark-mode {
-    background-color: #333;
-    color: #f0f0f0;
+    background-color: #1c1c1c; /* Darker background for contrast */
+    color: #e0e0e0; /* Lighter text for better visibility */
 }
 
-/* Green/Pink Mode */
+/* Green/Pink Mode - adjusted colors for visibility and aesthetics */
 .green-pink-mode {
-    background-color: #3a3;
-    color: #f3c;
+    background-color: #4d944d; /* Softer shade of green */
+    color: #ff99cc; /* Softer shade of pink */
 }
 
 /* Rest of your styles */
