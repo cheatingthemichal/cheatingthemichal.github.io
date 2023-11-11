@@ -22,16 +22,16 @@ body {
     margin-top: 10px;
 }
 
-/* Light Mode - enhanced pink for better visibility */
+/* Light Mode */
 .light-mode {
-    background-color: #f4a6a7; /* A warmer, more reddish soft pink */
-    color: #5b7553; /* Muted green for text */
+    background-color: #f0f0f0;
+    color: #333;
 }
 
-/* Dark Mode - inspired by the building's facade and shutters */
+/* Dark Mode - adjusted for better visibility */
 .dark-mode {
-    background-color: #6b7a8f; /* Soft slate blue */
-    color: #fde2e2; /* A lighter, more reddish pink for text, for better visibility */
+    background-color: #1c1c1c; /* Darker background for contrast */
+    color: #e0e0e0; /* Lighter text for better visibility */
 }
 
 /* Green/Pink Mode - using the building's color palette with enhanced pink */
