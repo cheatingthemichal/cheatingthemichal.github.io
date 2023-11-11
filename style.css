@@ -22,31 +22,31 @@ body {
     margin-top: 10px;
 }
 
-/* Light Mode - more visible reddish-pink */
+/* Light Mode - enhanced pink for better visibility */
 .light-mode {
-    background-color: #eeacb1; /* A vivid, reddish-pink shade */
+    background-color: #f4a6a7; /* A warmer, more reddish soft pink */
     color: #5b7553; /* Muted green for text */
 }
 
-/* Dark Mode - inspired by the building's facade and shutters, with adjusted text color */
+/* Dark Mode - inspired by the building's facade and shutters */
 .dark-mode {
     background-color: #6b7a8f; /* Soft slate blue */
-    color: #f8bcc0; /* A lighter, more vivid reddish-pink for text, enhancing visibility */
+    color: #fde2e2; /* A lighter, more reddish pink for text, for better visibility */
 }
 
-/* Green/Pink Mode - using the building's color palette with a more visible reddish-pink */
+/* Green/Pink Mode - using the building's color palette with enhanced pink */
 .green-pink-mode {
     background-color: #88b04b; /* A soft green */
-    color: #eeacb1; /* A vivid, reddish-pink shade */
+    color: #eeacb1; /* A warmer, more reddish soft pink */
 }
 
 /* Rest of your styles */
 h1 {
-    color: #5b7553; /* Muted green to match the text color */
+    color: #5b7553; /* Adjusted to muted green to match the text */
 }
 
 a {
-    color: #6b7a8f; /* Soft slate blue to match the dark mode background */
+    color: #6b7a8f; /* Adjusted to soft slate blue to match the dark mode background */
     text-decoration: none;
 }
 
