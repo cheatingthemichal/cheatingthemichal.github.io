@@ -34,31 +34,31 @@ body {
     color: #e0e0e0; /* Lighter text for better visibility */
 }
 
-/* Green/Pink Mode - using the building's color palette with enhanced pink */
+/* Green/Pink Mode - adjusted colors for visibility and aesthetics */
 .green-pink-mode {
-    background-color: #eeacb1; /* A vivid, reddish-pink shade */
-    color: #5b7553; /* Muted green for text */
+    background-color: #4d944d; /* Softer shade of green */
+    color: #ff99cc; /* Softer shade of pink */
 }
 
 /* Rest of your styles */
 h1 {
-    color: #5b7553; /* Adjusted to muted green to match the text */
+    color: #0056b3;
 }
 
 a {
-    color: #6b7a8f; /* Adjusted to soft slate blue to match the dark mode background */
+    color: #0066cc;
     text-decoration: none;
 }
 
 a:hover {
-    color: #5b7553; /* Muted green for hover state, for consistency */
+    color: #004499;
     text-decoration: underline;
 }
 
 hr {
     border: none;
     height: 1px;
-    background-color: #a8b6bf; /* Warmer gray to match the new color scheme */
+    background-color: #ccc;
     margin-top: 20px;
     margin-bottom: 20px;
 }
