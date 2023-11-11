@@ -2,12 +2,20 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
     <title>Michal Hajlasz's Website</title>
 </head>
-<body>
+<body class="dark-mode">
     <div class="container">
-        <h1>Michal Hajlasz's Website</h1>
-        <p>michalhajlasz@gmail.com</p>
+        <header>
+            <h1>Michal Hajlasz's Website</h1>
+            <p class="email">Email: <a href="mailto:michalhajlasz@gmail.com">michalhajlasz@gmail.com</a></p>
+            <div class="mode-switcher">
+                <button onclick="setMode('light-mode')">Light Mode</button>
+                <button onclick="setMode('dark-mode')">Dark Mode</button>
+                <button onclick="setMode('green-pink-mode')">Green/Pink Mode</button>
+            </div>
+        </header>
         <hr>
         <h3>Websites for my coolest projects:</h3>
         <ul>
