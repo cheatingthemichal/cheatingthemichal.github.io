@@ -22,43 +22,43 @@ body {
     margin-top: 10px;
 }
 
-/* Light Mode */
+/* Light Mode - inspired by the building's pastel pink */
 .light-mode {
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: #f7cac9; /* Soft pastel pink background */
+    color: #5b7553; /* Muted green for text, inspired by the shutters */
 }
 
-/* Dark Mode - adjusted for better visibility */
+/* Dark Mode - inspired by the building's facade and shutters */
 .dark-mode {
-    background-color: #1c1c1c; /* Darker background for contrast */
-    color: #e0e0e0; /* Lighter text for better visibility */
+    background-color: #6b7a8f; /* Soft slate blue, reminiscent of the building's shadows */
+    color: #feeeea; /* Very light pastel pink for text, for a warm contrast */
 }
 
-/* Green/Pink Mode - adjusted colors for visibility and aesthetics */
+/* Green/Pink Mode - using the building's color palette */
 .green-pink-mode {
-    background-color: #4d944d; /* Softer shade of green */
-    color: #ff99cc; /* Softer shade of pink */
+    background-color: #88b04b; /* A soft green, like the building's shutters */
+    color: #f7cac9; /* A soft pink, like the building's walls */
 }
 
 /* Rest of your styles */
 h1 {
-    color: #0056b3;
+    color: #0056b3; /* You may want to adjust this to fit the new color scheme */
 }
 
 a {
-    color: #0066cc;
+    color: #0066cc; /* Likewise, this may also need adjustment */
     text-decoration: none;
 }
 
 a:hover {
-    color: #004499;
+    color: #004499; /* And this as well */
     text-decoration: underline;
 }
 
 hr {
     border: none;
     height: 1px;
-    background-color: #ccc;
+    background-color: #ccc; /* Consider a warmer gray to match the new scheme */
     margin-top: 20px;
     margin-bottom: 20px;
 }
