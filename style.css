@@ -1,9 +1,9 @@
+/* Base styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
     margin: 0;
     padding: 0;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .container {
@@ -12,9 +12,37 @@ body {
     padding: 20px;
 }
 
+.email {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.mode-switcher {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Light Mode */
+.light-mode {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+/* Green/Pink Mode */
+.green-pink-mode {
+    background-color: #3a3;
+    color: #f3c;
+}
+
+/* Rest of your styles */
 h1 {
     color: #0056b3;
-    text-align: center;
 }
 
 a {
