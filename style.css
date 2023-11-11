@@ -22,43 +22,43 @@ body {
     margin-top: 10px;
 }
 
-/* Light Mode - inspired by the building's pastel pink */
+/* Light Mode - enhanced pink for better visibility */
 .light-mode {
-    background-color: #f7cac9; /* Soft pastel pink background */
-    color: #5b7553; /* Muted green for text, inspired by the shutters */
+    background-color: #f4a6a7; /* A warmer, more reddish soft pink */
+    color: #5b7553; /* Muted green for text */
 }
 
 /* Dark Mode - inspired by the building's facade and shutters */
 .dark-mode {
-    background-color: #6b7a8f; /* Soft slate blue, reminiscent of the building's shadows */
-    color: #feeeea; /* Very light pastel pink for text, for a warm contrast */
+    background-color: #6b7a8f; /* Soft slate blue */
+    color: #fde2e2; /* A lighter, more reddish pink for text, for better visibility */
 }
 
-/* Green/Pink Mode - using the building's color palette */
+/* Green/Pink Mode - using the building's color palette with enhanced pink */
 .green-pink-mode {
-    background-color: #88b04b; /* A soft green, like the building's shutters */
-    color: #f7cac9; /* A soft pink, like the building's walls */
+    background-color: #88b04b; /* A soft green */
+    color: #f4a6a7; /* A warmer, more reddish soft pink */
 }
 
 /* Rest of your styles */
 h1 {
-    color: #0056b3; /* You may want to adjust this to fit the new color scheme */
+    color: #5b7553; /* Adjusted to muted green to match the text */
 }
 
 a {
-    color: #0066cc; /* Likewise, this may also need adjustment */
+    color: #6b7a8f; /* Adjusted to soft slate blue to match the dark mode background */
     text-decoration: none;
 }
 
 a:hover {
-    color: #004499; /* And this as well */
+    color: #5b7553; /* Muted green for hover state, for consistency */
     text-decoration: underline;
 }
 
 hr {
     border: none;
     height: 1px;
-    background-color: #ccc; /* Consider a warmer gray to match the new scheme */
+    background-color: #a8b6bf; /* Warmer gray to match the new color scheme */
     margin-top: 20px;
     margin-bottom: 20px;
 }
