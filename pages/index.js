@@ -44,6 +44,13 @@ const Content = styled.div`
 `;
 
 const Home = () => {
+  useEffect(() => {
+    // Redirect to the Vercel site
+    if (window.location.hostname === 'cheatingthemichal.github.io') {
+      window.location.href = 'https://michalh.vercel.app/';
+    }
+  }, []);
+
   const [showReadMe, setShowReadMe] = useState(false);
   const [showMusic, setShowMusic] = useState(false);
   const [showSynth, setShowSynth] = useState(false);
@@ -70,11 +77,6 @@ const Home = () => {
   const selectProject = (project) => { setCurrentProject(project); };
 
   useEffect(() => {
-    // Redirect to the Vercel site
-    if (window.location.hostname === 'cheatingthemichal.github.io') {
-      window.location.href = 'https://michalh.vercel.app/';
-    }
-
     const canvas = canvasRef.current;
     const context = canvas.getContext('2d');
     const scale = window.devicePixelRatio;
